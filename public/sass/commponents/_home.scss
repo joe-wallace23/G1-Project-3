@@ -1,0 +1,23 @@
+.home{
+    margin: 3rem 0 2rem 0;
+
+    &__images{
+        padding: 19rem .9rem 1rem .9rem;
+        background-image: url(/images/Home-Gating-Great-play-bg-min.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    &__images2{
+        padding: 21rem .9rem 1rem .9rem;
+        background-image: url(/images/Get-Dancing-with-Deion-only-on-bg-min.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+}
+.home .col-lg-6{
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,19 @@
+.tasty{
+    margin: 2rem 0 2rem 0;
+    &__images{
+        padding: 26rem 0 1rem 0;
+        background-image: url(/images/Fresh-veggie-quality-food-bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    &__imagesd img{
+        width: 100%;
+        height: 15.5rem;
+    }
+}
+
+.tasty .col-lg-6{
+    margin-bottom: 2rem;
+}

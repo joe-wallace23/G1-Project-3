@@ -1,0 +1,142 @@
+.free{
+    &__content h1{
+        font-size: 2.4rem;
+        color: #fff;
+         text-transform: uppercase;
+         font-weight: bold;
+    }
+    &__content h2{
+        font-size: 2rem;
+        color: $header-color;
+         text-transform: uppercase;
+         font-weight: bold;
+    }
+    &__content p.main{
+        font-size: 1.2rem;
+        color: #fff;
+        line-height: 1.6rem;
+        padding-top: 1rem;
+
+    }
+    &__content p.sub{
+        font-size: .8rem;
+        color: #fff;
+        line-height: 1.1rem;
+    }
+}
+
+
+.home{
+    &__images h2.kn{
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+    &__images span{
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        color:$header-color;
+        font-weight: bold;
+    }
+    &__images p.main{
+        font-size: 1.1rem;
+        color: #fff;
+    }
+    &__images p.sub{
+        font-size: .8rem;
+        color: #fff;
+    }
+
+    &__images2 h2.kn{
+        font-size: 1.5rem;
+        color:$color-text;
+        margin-bottom: 0;
+    }
+
+   
+   
+    &__images2 p.sub{
+        font-size: .8rem;
+        color:$color-text;
+    }
+    
+
+}
+
+.hero{
+    &__content h2{
+        font-size: 2.2rem;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    &__content p{
+        font-size: 1.1rem;
+        color: #fff;
+    }
+}
+.hero .king{
+    margin-left: 2rem;
+}
+
+
+.earn{
+    &__content h2{
+        font-size: 2.5rem;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    &__content p{
+        font-size: 1.1rem;
+        color: #fff;
+    }
+}
+
+.tasty{
+   &__images p{
+       font-size: 1.2rem;
+       color: #fff;
+   }
+}
+
+.changenot{
+    &__content h2{
+        font-size: 2.5rem;
+        color: #fff;
+        font-weight: bold;
+    }
+    &__content p{
+       font-size: 1.2rem;
+       color: #fff;
+       line-height: 1.8rem;
+    }
+}
+
+.commit{
+   &__content h2{
+       font-size: 2.2rem;
+       color: #fff;
+       font-weight: bold;
+   }
+   &__content p{
+    font-size: 1.2rem;
+    color: #fff;
+
+}
+}
+
+.order{
+
+    &__content h2{
+         font-size: 2.2rem;
+         color: #4c006a;
+         font-weight: bold;
+    }
+    &__content p{
+        font-size: 1.1rem;
+        color: #4c006a;
+   }
+}

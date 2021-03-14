@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif; }
+  @media (max-width: 75em) {
+    body {
+      font-size: 56.25%; } }
+  @media (max-width: 50em) {
+    body {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    body {
+      font-size: 50%; } }
+  @media (max-width: 61.875em) {
+    body {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    body {
+      font-size: 75%; } }
+
+.nav__button {
+  margin-left: .5rem; }
+  @media (max-width: 75em) {
+    .nav__button {
+      margin-left: .1rem; } }
+
+.nav__link {
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: .5rem 1.2rem;
+  background-color: #008938;
+  border: 0.1rem solid #008938; }
+
+.free__button {
+  margin: 2rem 0 .9rem 0; }
+
+.free__link {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #008938;
+  padding: .5rem 1.2rem; }
+  .free__link:hover {
+    color: #fff;
+    text-decoration: none; }
+
+.home__button {
+  margin-bottom: 2rem; }
+
+.home__link {
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: .5rem 1.2rem;
+  background-color: #008938; }
+  .home__link:hover {
+    color: #fff;
+    text-decoration: none; }
+
+.home__button2 {
+  margin: 1.5rem 0; }
+
+.home__buttonc {
+  margin-top: 2rem; }
+
+.home__buttonf {
+  margin-top: 2rem; }
+
+.order__link {
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: .5rem 1.2rem;
+  background-color: #008938; }
+  .order__link:hover {
+    color: #fff;
+    text-decoration: none; }
+
+.free__content h1 {
+  font-size: 2.4rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.free__content h2 {
+  font-size: 2rem;
+  color: #f2b700;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.free__content p.main {
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 1.6rem;
+  padding-top: 1rem; }
+
+.free__content p.sub {
+  font-size: .8rem;
+  color: #fff;
+  line-height: 1.1rem; }
+
+.home__images h2.kn {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: bold; }
+
+.home__images span {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #f2b700;
+  font-weight: bold; }
+
+.home__images p.main {
+  font-size: 1.1rem;
+  color: #fff; }
+
+.home__images p.sub {
+  font-size: .8rem;
+  color: #fff; }
+
+.home__images2 h2.kn {
+  font-size: 1.5rem;
+  color: #00491e;
+  margin-bottom: 0; }
+
+.home__images2 p.sub {
+  font-size: .8rem;
+  color: #00491e; }
+
+.hero__content h2 {
+  font-size: 2.2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.hero__content p {
+  font-size: 1.1rem;
+  color: #fff; }
+
+.hero .king {
+  margin-left: 2rem; }
+
+.earn__content h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.earn__content p {
+  font-size: 1.1rem;
+  color: #fff; }
+
+.tasty__images p {
+  font-size: 1.2rem;
+  color: #fff; }
+
+.changenot__content h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bold; }
+
+.changenot__content p {
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 1.8rem; }
+
+.commit__content h2 {
+  font-size: 2.2rem;
+  color: #fff;
+  font-weight: bold; }
+
+.commit__content p {
+  font-size: 1.2rem;
+  color: #fff; }
+
+.order__content h2 {
+  font-size: 2.2rem;
+  color: #4c006a;
+  font-weight: bold; }
+
+.order__content p {
+  font-size: 1.1rem;
+  color: #4c006a; }
+
+.food {
+  margin: 3rem 0; }
+  .food__images img {
+    width: 100%;
+    height: 20rem; }
+
+.food .col-lg-3 {
+  margin-bottom: 2rem; }
+
+.home {
+  margin: 3rem 0 2rem 0; }
+  .home__images {
+    padding: 19rem .9rem 1rem .9rem;
+    background-image: url(/images/Home-Gating-Great-play-bg-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; }
+  .home__images2 {
+    padding: 21rem .9rem 1rem .9rem;
+    background-image: url(/images/Get-Dancing-with-Deion-only-on-bg-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; }
+
+.home .col-lg-6 {
+  margin-bottom: 2rem; }
+
+.hero {
+  margin: 2rem 0 3rem 0;
+  padding-top: 8rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.5)), url(/images/Five-your-hero-an-egift-card-bg-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem; }
+
+.earn {
+  margin: 3rem 0 2rem 0;
+  padding: 12rem 0 0 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.2)), url(/images/Earn-while-you-eat-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33rem; }
+
+.tasty {
+  margin: 2rem 0 2rem 0; }
+  .tasty__images {
+    padding: 26rem 0 1rem 0;
+    background-image: url(/images/Fresh-veggie-quality-food-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; }
+  .tasty__imagesd img {
+    width: 100%;
+    height: 15.5rem; }
+
+.tasty .col-lg-6 {
+  margin-bottom: 2rem; }
+
+.changenot {
+  margin: 2rem 0 2rem 0;
+  padding: 13rem 0 1rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.14)), url(/images/Making-change-for-good-bg-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33rem; }
+
+.commit {
+  margin: 3rem 0 2rem 0; }
+  .commit__bg {
+    background-color: #3498db;
+    padding: 4rem 0; }
+  .commit__content img {
+    width: 100%;
+    height: 16.3rem; }
+
+.commit .col-lg-9 {
+  margin-bottom: 2rem; }
+
+.order {
+  margin: 2rem 0 2rem 0;
+  padding: 10rem 0 1rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.06)), url(/images/Order-how-you-want-where-you-want-bg-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 23rem; }
+
+.bottom {
+  position: relative;
+  margin: 3rem 0 2rem 0; }
+  .bottom__bg {
+    padding: 2rem 2rem 1rem 3rem;
+    background-color: #8bcd32;
+    height: 100%; }
+  .bottom__title h2 {
+    font-size: 1.3rem;
+    color: #006230;
+    font-weight: bold;
+    padding-bottom: 1rem; }
+  .bottom__content h3 {
+    font-size: 1.3rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .bottom__list {
+    list-style: none; }
+  .bottom__item:not(:last-child) {
+    margin-bottom: .3rem; }
+  .bottom__link {
+    font-size: .9rem;
+    color: #00572d; }
+    .bottom__link:hover {
+      color: #00572d;
+      text-decoration: none; }
+  .bottom__lists {
+    list-style: none;
+    margin-top: 1rem; }
+  .bottom__icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    fill: #00572d; }
+  .bottom__items {
+    display: inline-block; }
+  .bottom__items:not(:last-child) {
+    margin-right: 1.5rem; }
+  .bottom__listc {
+    list-style: none;
+    margin-top: 2rem; }
+  .bottom__itemc {
+    display: inline-block;
+    padding: 0  .5rem; }
+  .bottom__itemc:not(:last-child) {
+    border-right: .1rem solid #000; }
+  .bottom__linkc {
+    font-size: .8rem;
+    color: #000;
+    text-transform: uppercase; }
+    .bottom__linkc:hover {
+      color: #000;
+      text-decoration: none; }
+  .bottom__content p.copy {
+    font-size: .8rem;
+    color: #000; }
+
+.bottom .bordersv:not(:last-child) {
+  border-right: .1rem solid #fff; }
+  @media (max-width: 75em) {
+    .bottom .bordersv:not(:last-child) {
+      border-right: .1rem solid transparent; } }
+
+.free {
+  margin: 5rem 0 2rem 0;
+  padding-top: 5rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.23)), url(/images/Free-FootLong-when-you-Buy-2-bg-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33rem; }
+
+.navbar {
+  background: white;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 35%, rgba(255, 255, 255, 0.9) 100%); }
+  .navbar-brand img {
+    width: 13rem; }
+
+.nav-link {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #008938 !important;
+  font-weight: bold; }
+
+.navbar-toggler {
+  border: none !important; }
+
+.toggler-btn {
+  border: 2px solid #008938;
+  padding: 5px;
+  transition: all 2s ease; }
+
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background: #008938;
+  transition: all 0.5s ease; }
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px); }
+
+.change .bar2 {
+  opacity: 0; }
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-5px, -8px); }

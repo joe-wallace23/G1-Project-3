@@ -1,0 +1,59 @@
+.nav{
+   &__button{
+       margin-left: .5rem;
+       @include respond(tab-land){
+        margin-left: .1rem;
+       }
+   }
+   &__link{
+       font-size: 1rem;
+       color: #fff;
+       text-transform: uppercase;
+       font-weight: bold;
+       padding: .5rem 1.2rem;
+       background-color: $color-link;
+       border: .1rem solid $color-link;
+   }
+}
+.free{
+    &__button{
+      margin: 2rem 0 .9rem 0;
+    }
+    &__link{
+        font-size: 1rem;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        background-color: $color-link;
+        padding: .5rem 1.2rem;
+        &:hover{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+.home{
+    &__button{
+        margin-bottom: 2rem;
+    }
+    &__link{
+       @include btn;
+    }
+    &__button2{
+        margin: 1.5rem 0;
+    }
+    &__buttonc{
+     margin-top: 2rem;
+    }
+    &__buttonf{
+        margin-top: 2rem;
+    }
+}
+
+.order{
+
+   &__link{
+       @include btn;
+   }
+}

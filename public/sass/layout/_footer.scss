@@ -1,0 +1,86 @@
+.bottom{
+    position: relative;
+    margin: 3rem 0 2rem 0;
+ 
+
+    &__bg{
+        padding: 2rem 2rem 1rem 3rem;
+        background-color: #8bcd32;
+        height: 100%;
+    }
+    &__title h2{
+        font-size: 1.3rem;
+        color:#006230 ;
+        font-weight: bold;
+        padding-bottom: 1rem;
+    }
+    &__content h3{
+        font-size: 1.3rem;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    &__list{
+        list-style: none;
+    }
+    &__item:not(:last-child){
+       margin-bottom: .3rem;
+    }
+    &__link{
+        font-size: .9rem;
+        color:#00572d ;
+        &:hover{
+            color:#00572d ;
+            text-decoration: none;
+        }
+    }
+    &__lists{
+        list-style: none;
+        margin-top: 1rem;
+    }
+    &__icon{
+        width: 1.8rem;
+        height: 1.8rem;
+        fill: #00572d;
+    }
+    &__items{
+        display: inline-block;
+    }
+    &__items:not(:last-child){
+        margin-right: 1.5rem;
+    }
+    &__listc{
+        list-style: none;
+        margin-top: 2rem;
+    }
+    &__itemc{
+        display: inline-block;
+        padding: 0  .5rem;
+    
+    }
+    &__itemc:not(:last-child){
+      
+        border-right: .1rem solid #000;
+    }
+    &__linkc{
+        font-size: .8rem;
+        color: #000;
+        text-transform: uppercase;
+        &:hover{
+            color: #000;
+            text-decoration: none;
+        }
+    }
+    &__content p.copy{
+        font-size: .8rem;
+        color: #000;
+    }
+}
+
+.bottom .bordersv:not(:last-child){
+    border-right: .1rem solid #fff;
+
+    @include respond(tab-land){
+        border-right: .1rem solid transparent;
+    }
+}
